@@ -1,0 +1,23 @@
+{
+  "name": "api-sql-server-node",
+  "version": "1.0.0",
+  "description": "test SQL SERVER",
+  "main": "api.js",
+  "scripts": {
+    "start": " nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Otero",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "mssql": "^10.0.1",
+    "tedious": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
